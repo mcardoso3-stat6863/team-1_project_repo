@@ -177,6 +177,8 @@ proc sql outobs=20;
 quit;
 
 proc means data=REBOUNDS_SIZE;
-	var HEIGHT_SHOES WEIGHT
+	var
+		HEIGHT_SHOES
+		WEIGHT
 	;
 run;
